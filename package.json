@@ -1,14 +1,19 @@
 {
-  "name": "VC",
-  "description": "VC",
-  "version": "0.0.1",
+  "name": "fate-srd-content",
+  "description": "Formatted SRD documents for the Fate Roleplaying Game.",
+  "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "start": "ts-node main.ts"
+  },
   "dependencies": {
-    "gulp": "^3.9.0",
-    "gulp-dest": "^0.2.3",
-    "gulp-htmlsplit": "^1.1.0",
-    "gulp-markdown": "^1.2.0",
-    "gulp-replace": "^0.5.4",
-    "gulp-tap": "^0.1.3"
+    "@types/globby": "^6.1.0",
+    "@types/marked": "^0.3.0",
+    "@types/node": "^8.0.49",
+    "globby": "^6.1.0",
+    "marked": "^0.3.6",
+    "parse5": "^3.0.3",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.1"
   }
 }
